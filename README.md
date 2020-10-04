@@ -6,6 +6,16 @@ The code listens for the network broadcast messages from the energy monitor and 
 
 ![The Grafana Dashboard](/images/Energy.png)
 
+## Pre-requisites
+
+You'll need an [InfluxDB](www.influxdata.com) database and a [Grafana](www.grafana.org) installation to store and view the data. 
+
+If you want to use additional Raspberry Pi's or similar for this, you can follow these guides:
+
+   * [Install InfluxDB](https://pimylifeup.com/raspberry-pi-influxdb/)
+   * [Install Grafana](https://grafana.com/tutorials/install-grafana-on-raspberry-pi/#1)
+
+If you want to go even further and have another pi with a screen as a dashboard for the house, then you can [follow these steps](https://www.balena.io/blog/make-a-web-frame-with-raspberry-pi-in-30-minutes/) and use BalenaDash to deploy that as well - just make sure you set the `LAUNCH_URL` environment variable in the BalenaDash app to point to your new dashboard!
 
 ## Installation
 
