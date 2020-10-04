@@ -4,6 +4,9 @@ This application is designed to run on a Raspberry Pi via [Balena Cloud](www.bal
 
 The code listens for the network broadcast messages from the energy monitor and converts these into a suitable format to push to InfluxDB.  You can then view the data either by uploading the custom graphs to Grafana or by querying the database directly.
 
+![The Grafana Dashboard](/images/Energy.png)
+
+
 ## Installation
 
 The recommended method of installing this application is using Balena Cloud as it removes a lot of the complexity around maintaining and deploying a python application.
